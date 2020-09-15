@@ -1,0 +1,27 @@
+
+
+  
+
+  li a:hover:not(.active) {
+    background-color: #1a89a2;
+  }
+  
+  .active {
+    background-color:#a2aaabb5
+  }
+ .cardiv {
+    background-color:#ffffff;
+   
+    border-style: hidden;
+    border-radius: 4px;
+ 
+    width: 56%;
+    height: 177px;
+  }
+  .cardiv img{
+    background-color: #ffffff;
+    width: 33%;
+    border-style: hidden;
+    border-radius: -3px;
+    height: 179px;
+  }

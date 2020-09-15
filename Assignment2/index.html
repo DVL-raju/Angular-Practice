@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Js/car.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li> <a onclick="ClickCarName(this,'Audi')" class="active">Audi</a><input type="hidden" id="Audi"
+                value="0">
+        </li>
+        <li><a onclick="ClickCarName(this,'BMW')">BMW</a> <input type="hidden" id="BMW" value="0"></li>
+        <li><a onclick="ClickCarName(this,'Ferrari')" class="">Ferrari</a><input type="hidden" id="Ferrari" value="0"></li>
+        <li><a onclick="ClickCarName(this,'Lamborghini')" class="">Lamborghini</a><input type="hidden" id="Lamborghini"
+                value="0"></li>
+        <li><a onclick="ClickCarName(this,'Mercedes')" class="">Mercedes</a><input type="hidden" id="Mercedes" value="0"></li>
+    </ul>
+    <br>
+    <div class="cardiv" id="cars">
+        <img src="Image/Audi.PNG" onclick="IncrementCount('Audi')">
+    </div>
+    <div>
+
+
+        <h2 id="Car">Audi</h2>
+</div>
+    <div>
+       
+                <h2 id="counter">0</h2>
+          
+    </div>
+</body>
+
+
+</html>
